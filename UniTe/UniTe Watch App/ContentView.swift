@@ -1,24 +1,84 @@
-//
-//  ContentView.swift
-//  UniTe Watch App
-//
-//  Created by nathan tieu on 4/21/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                ForEach(events) { event in
+                    NavigationLink(destination: EventDetailView(event: event)) {
+                        VStack(alignment: .leading, spacing: 5) {
+                            Text(event.eventTitle)
+                                .font(.headline)
+                                .padding(.bottom, 2)
+                            Text(event.clubName)
+                                .font(.subheadline)
+                            Text(event.location)
+                                .font(.subheadline)
+                            Text(event.time)
+                                .font(.subheadline)
+                        }
+                        .padding()
+                    }
+                }
+            }
+            .navigationTitle("Events")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct EventDetailView: View {
+    var event: Events
+    
+    var body: some View {
+        VStack {
+            Text(event.eventTitle)
+                .font(.title)
+                .padding()
+            Text("Hosted by \(event.clubName)")
+                .padding()
+            Text("Location: \(event.location)")
+                .padding()
+            Text("Time: \(event.time)")
+                .padding()
+            Text(event.description)
+                .padding()
+            
+            Spacer()
+            
+            Button("Join Event") {
+                // Action for joining the event
+            }
+            .padding()
+            .buttonStyle(.borderedProminent)
+            
+            Button("Share") {
+                // Action for sharing the event
+            }
+            .padding()
+            .buttonStyle(.bordered)
+        }
+        .padding()
+        .navigationTitle("Event Details")
+        .navigationBarTitleDisplayMode(.inline)
+    }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+struct Events: Identifiable {
+    var id = UUID()
+    var clubName: String
+    var description: String
+    var location: String
+    var time: String
+    var eventTitle: String
+}
+
+var events = [
+    Events(clubName: "Chess Club", description: "Join us for an exciting round of chess.", location: "Skiles 254", time: "April 27 12:00 PM", eventTitle: "Chess Tournament"),
+    Events(clubName: "Robotics Club", description: "Workshop on building your first robot.", location: "Klaus Atrium", time: "April 28 3:00 PM", eventTitle: "Robotics Workshop")
+]

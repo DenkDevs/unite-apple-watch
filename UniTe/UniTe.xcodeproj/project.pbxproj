@@ -7,58 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA9107602BD6157B00BA91DC /* UniTe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA91075F2BD6157B00BA91DC /* UniTe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DA9107652BD6157B00BA91DC /* UniTeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9107642BD6157B00BA91DC /* UniTeApp.swift */; };
-		DA9107672BD6157B00BA91DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9107662BD6157B00BA91DC /* ContentView.swift */; };
-		DA9107692BD6158000BA91DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9107682BD6158000BA91DC /* Assets.xcassets */; };
-		DA91076C2BD6158000BA91DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA91076B2BD6158000BA91DC /* Preview Assets.xcassets */; };
-		DA9107782BD72EA400BA91DC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107772BD72EA400BA91DC /* FirebaseAnalytics */; };
-		DA91077A2BD72EA400BA91DC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107792BD72EA400BA91DC /* FirebaseAnalyticsOnDeviceConversion */; };
-		DA91077C2BD72EA400BA91DC /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA91077B2BD72EA400BA91DC /* FirebaseAnalyticsSwift */; };
-		DA91077E2BD72EA400BA91DC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = DA91077D2BD72EA400BA91DC /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		DA9107802BD72EA400BA91DC /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = DA91077F2BD72EA400BA91DC /* FirebaseAppCheck */; };
-		DA9107822BD72EA400BA91DC /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107812BD72EA400BA91DC /* FirebaseAppDistribution-Beta */; };
-		DA9107842BD72EA400BA91DC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107832BD72EA400BA91DC /* FirebaseAuth */; };
-		DA9107862BD72EA400BA91DC /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107852BD72EA400BA91DC /* FirebaseAuthCombine-Community */; };
-		DA9107882BD72EA400BA91DC /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107872BD72EA400BA91DC /* FirebaseCrashlytics */; };
-		DA91078A2BD72EA400BA91DC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107892BD72EA400BA91DC /* FirebaseDatabase */; };
-		DA91078C2BD72EA400BA91DC /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA91078B2BD72EA400BA91DC /* FirebaseDatabaseSwift */; };
-		DA91078E2BD72EA400BA91DC /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = DA91078D2BD72EA400BA91DC /* FirebaseDynamicLinks */; };
-		DA9107902BD72EA400BA91DC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DA91078F2BD72EA400BA91DC /* FirebaseFirestore */; };
-		DA9107922BD72EA400BA91DC /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107912BD72EA400BA91DC /* FirebaseFirestoreCombine-Community */; };
-		DA9107942BD72EA400BA91DC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107932BD72EA400BA91DC /* FirebaseFirestoreSwift */; };
-		DA9107962BD72EA400BA91DC /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107952BD72EA400BA91DC /* FirebaseFunctions */; };
-		DA9107982BD72EA400BA91DC /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107972BD72EA400BA91DC /* FirebaseFunctionsCombine-Community */; };
-		DA91079A2BD72EA400BA91DC /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107992BD72EA400BA91DC /* FirebaseInAppMessaging-Beta */; };
-		DA91079C2BD72EA400BA91DC /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DA91079B2BD72EA400BA91DC /* FirebaseInAppMessagingSwift-Beta */; };
-		DA91079E2BD72EA400BA91DC /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = DA91079D2BD72EA400BA91DC /* FirebaseInstallations */; };
-		DA9107A02BD72EA400BA91DC /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = DA91079F2BD72EA400BA91DC /* FirebaseMLModelDownloader */; };
-		DA9107A22BD72EA400BA91DC /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107A12BD72EA400BA91DC /* FirebaseMessaging */; };
-		DA9107A42BD72EA400BA91DC /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107A32BD72EA400BA91DC /* FirebasePerformance */; };
-		DA9107A62BD72EA400BA91DC /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107A52BD72EA400BA91DC /* FirebaseRemoteConfig */; };
-		DA9107A82BD72EA400BA91DC /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107A72BD72EA400BA91DC /* FirebaseRemoteConfigSwift */; };
-		DA9107AA2BD72EA400BA91DC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107A92BD72EA400BA91DC /* FirebaseStorage */; };
-		DA9107AC2BD72EA400BA91DC /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107AB2BD72EA400BA91DC /* FirebaseStorageCombine-Community */; };
+		2127817A2BD8627F00A68BFA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212781792BD8627F00A68BFA /* Event.swift */; };
+		2127817C2BD8629700A68BFA /* EventRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127817B2BD8629700A68BFA /* EventRowController.swift */; };
+		2127817E2BD862B200A68BFA /* EventDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127817D2BD862B200A68BFA /* EventDetailController.swift */; };
+		212781802BD862C700A68BFA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127817F2BD862C700A68BFA /* Utilities.swift */; };
+		21A34E2E2BD72F9A00907D74 /* UniTe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		21A34E332BD72F9A00907D74 /* UniTeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A34E322BD72F9A00907D74 /* UniTeApp.swift */; };
+		21A34E352BD72F9A00907D74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A34E342BD72F9A00907D74 /* ContentView.swift */; };
+		21A34E372BD72FA000907D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A34E362BD72FA000907D74 /* Assets.xcassets */; };
+		21A34E3A2BD72FA000907D74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A34E392BD72FA000907D74 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA9107612BD6157B00BA91DC /* PBXContainerItemProxy */ = {
+		21A34E2F2BD72F9A00907D74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DA9107532BD6157900BA91DC /* Project object */;
+			containerPortal = 21A34E212BD72F9A00907D74 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA91075E2BD6157B00BA91DC;
+			remoteGlobalIDString = 21A34E2C2BD72F9A00907D74;
 			remoteInfo = "UniTe Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DA9107722BD6158000BA91DC /* Embed Watch Content */ = {
+		21A34E402BD72FA000907D74 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				DA9107602BD6157B00BA91DC /* UniTe Watch App.app in Embed Watch Content */,
+				21A34E2E2BD72F9A00907D74 /* UniTe Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,84 +43,65 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA9107592BD6157B00BA91DC /* UniTe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA91075F2BD6157B00BA91DC /* UniTe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniTe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA9107642BD6157B00BA91DC /* UniTeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniTeApp.swift; sourceTree = "<group>"; };
-		DA9107662BD6157B00BA91DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DA9107682BD6158000BA91DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA91076B2BD6158000BA91DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		212781792BD8627F00A68BFA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2127817B2BD8629700A68BFA /* EventRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowController.swift; sourceTree = "<group>"; };
+		2127817D2BD862B200A68BFA /* EventDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailController.swift; sourceTree = "<group>"; };
+		2127817F2BD862C700A68BFA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		21A34E272BD72F9A00907D74 /* UniTe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniTe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A34E322BD72F9A00907D74 /* UniTeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniTeApp.swift; sourceTree = "<group>"; };
+		21A34E342BD72F9A00907D74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21A34E362BD72FA000907D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21A34E392BD72FA000907D74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA91075C2BD6157B00BA91DC /* Frameworks */ = {
+		21A34E2A2BD72F9A00907D74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA91078A2BD72EA400BA91DC /* FirebaseDatabase in Frameworks */,
-				DA9107982BD72EA400BA91DC /* FirebaseFunctionsCombine-Community in Frameworks */,
-				DA9107902BD72EA400BA91DC /* FirebaseFirestore in Frameworks */,
-				DA91077C2BD72EA400BA91DC /* FirebaseAnalyticsSwift in Frameworks */,
-				DA9107782BD72EA400BA91DC /* FirebaseAnalytics in Frameworks */,
-				DA91077A2BD72EA400BA91DC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				DA9107A02BD72EA400BA91DC /* FirebaseMLModelDownloader in Frameworks */,
-				DA9107942BD72EA400BA91DC /* FirebaseFirestoreSwift in Frameworks */,
-				DA9107802BD72EA400BA91DC /* FirebaseAppCheck in Frameworks */,
-				DA91077E2BD72EA400BA91DC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-				DA9107842BD72EA400BA91DC /* FirebaseAuth in Frameworks */,
-				DA9107882BD72EA400BA91DC /* FirebaseCrashlytics in Frameworks */,
-				DA9107A82BD72EA400BA91DC /* FirebaseRemoteConfigSwift in Frameworks */,
-				DA91079A2BD72EA400BA91DC /* FirebaseInAppMessaging-Beta in Frameworks */,
-				DA91078C2BD72EA400BA91DC /* FirebaseDatabaseSwift in Frameworks */,
-				DA9107962BD72EA400BA91DC /* FirebaseFunctions in Frameworks */,
-				DA9107AC2BD72EA400BA91DC /* FirebaseStorageCombine-Community in Frameworks */,
-				DA9107A62BD72EA400BA91DC /* FirebaseRemoteConfig in Frameworks */,
-				DA9107822BD72EA400BA91DC /* FirebaseAppDistribution-Beta in Frameworks */,
-				DA9107862BD72EA400BA91DC /* FirebaseAuthCombine-Community in Frameworks */,
-				DA9107A42BD72EA400BA91DC /* FirebasePerformance in Frameworks */,
-				DA91079C2BD72EA400BA91DC /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
-				DA9107AA2BD72EA400BA91DC /* FirebaseStorage in Frameworks */,
-				DA91078E2BD72EA400BA91DC /* FirebaseDynamicLinks in Frameworks */,
-				DA9107922BD72EA400BA91DC /* FirebaseFirestoreCombine-Community in Frameworks */,
-				DA9107A22BD72EA400BA91DC /* FirebaseMessaging in Frameworks */,
-				DA91079E2BD72EA400BA91DC /* FirebaseInstallations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA9107522BD6157900BA91DC = {
+		21A34E202BD72F9A00907D74 = {
 			isa = PBXGroup;
 			children = (
-				DA9107632BD6157B00BA91DC /* UniTe Watch App */,
-				DA91075A2BD6157B00BA91DC /* Products */,
+				21A34E312BD72F9A00907D74 /* UniTe Watch App */,
+				21A34E282BD72F9A00907D74 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA91075A2BD6157B00BA91DC /* Products */ = {
+		21A34E282BD72F9A00907D74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA9107592BD6157B00BA91DC /* UniTe.app */,
-				DA91075F2BD6157B00BA91DC /* UniTe Watch App.app */,
+				21A34E272BD72F9A00907D74 /* UniTe.app */,
+				21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA9107632BD6157B00BA91DC /* UniTe Watch App */ = {
+		21A34E312BD72F9A00907D74 /* UniTe Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				DA9107642BD6157B00BA91DC /* UniTeApp.swift */,
-				DA9107662BD6157B00BA91DC /* ContentView.swift */,
-				DA9107682BD6158000BA91DC /* Assets.xcassets */,
-				DA91076A2BD6158000BA91DC /* Preview Content */,
+				21A34E322BD72F9A00907D74 /* UniTeApp.swift */,
+				21A34E342BD72F9A00907D74 /* ContentView.swift */,
+				21A34E362BD72FA000907D74 /* Assets.xcassets */,
+				21A34E382BD72FA000907D74 /* Preview Content */,
+				212781792BD8627F00A68BFA /* Event.swift */,
+				2127817B2BD8629700A68BFA /* EventRowController.swift */,
+				2127817D2BD862B200A68BFA /* EventDetailController.swift */,
+				2127817F2BD862C700A68BFA /* Utilities.swift */,
 			);
 			path = "UniTe Watch App";
 			sourceTree = "<group>";
 		};
-		DA91076A2BD6158000BA91DC /* Preview Content */ = {
+		21A34E382BD72FA000907D74 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DA91076B2BD6158000BA91DC /* Preview Assets.xcassets */,
+				21A34E392BD72FA000907D74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -151,88 +109,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA9107582BD6157A00BA91DC /* UniTe */ = {
+		21A34E262BD72F9A00907D74 /* UniTe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA9107732BD6158000BA91DC /* Build configuration list for PBXNativeTarget "UniTe" */;
+			buildConfigurationList = 21A34E412BD72FA000907D74 /* Build configuration list for PBXNativeTarget "UniTe" */;
 			buildPhases = (
-				DA9107572BD6157A00BA91DC /* Resources */,
-				DA9107722BD6158000BA91DC /* Embed Watch Content */,
+				21A34E252BD72F9A00907D74 /* Resources */,
+				21A34E402BD72FA000907D74 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA9107622BD6157B00BA91DC /* PBXTargetDependency */,
+				21A34E302BD72F9A00907D74 /* PBXTargetDependency */,
 			);
 			name = UniTe;
 			productName = UniTe;
-			productReference = DA9107592BD6157B00BA91DC /* UniTe.app */;
+			productReference = 21A34E272BD72F9A00907D74 /* UniTe.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		DA91075E2BD6157B00BA91DC /* UniTe Watch App */ = {
+		21A34E2C2BD72F9A00907D74 /* UniTe Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA91076F2BD6158000BA91DC /* Build configuration list for PBXNativeTarget "UniTe Watch App" */;
+			buildConfigurationList = 21A34E3D2BD72FA000907D74 /* Build configuration list for PBXNativeTarget "UniTe Watch App" */;
 			buildPhases = (
-				DA91075B2BD6157B00BA91DC /* Sources */,
-				DA91075C2BD6157B00BA91DC /* Frameworks */,
-				DA91075D2BD6157B00BA91DC /* Resources */,
+				21A34E292BD72F9A00907D74 /* Sources */,
+				21A34E2A2BD72F9A00907D74 /* Frameworks */,
+				21A34E2B2BD72F9A00907D74 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "UniTe Watch App";
-			packageProductDependencies = (
-				DA9107772BD72EA400BA91DC /* FirebaseAnalytics */,
-				DA9107792BD72EA400BA91DC /* FirebaseAnalyticsOnDeviceConversion */,
-				DA91077B2BD72EA400BA91DC /* FirebaseAnalyticsSwift */,
-				DA91077D2BD72EA400BA91DC /* FirebaseAnalyticsWithoutAdIdSupport */,
-				DA91077F2BD72EA400BA91DC /* FirebaseAppCheck */,
-				DA9107812BD72EA400BA91DC /* FirebaseAppDistribution-Beta */,
-				DA9107832BD72EA400BA91DC /* FirebaseAuth */,
-				DA9107852BD72EA400BA91DC /* FirebaseAuthCombine-Community */,
-				DA9107872BD72EA400BA91DC /* FirebaseCrashlytics */,
-				DA9107892BD72EA400BA91DC /* FirebaseDatabase */,
-				DA91078B2BD72EA400BA91DC /* FirebaseDatabaseSwift */,
-				DA91078D2BD72EA400BA91DC /* FirebaseDynamicLinks */,
-				DA91078F2BD72EA400BA91DC /* FirebaseFirestore */,
-				DA9107912BD72EA400BA91DC /* FirebaseFirestoreCombine-Community */,
-				DA9107932BD72EA400BA91DC /* FirebaseFirestoreSwift */,
-				DA9107952BD72EA400BA91DC /* FirebaseFunctions */,
-				DA9107972BD72EA400BA91DC /* FirebaseFunctionsCombine-Community */,
-				DA9107992BD72EA400BA91DC /* FirebaseInAppMessaging-Beta */,
-				DA91079B2BD72EA400BA91DC /* FirebaseInAppMessagingSwift-Beta */,
-				DA91079D2BD72EA400BA91DC /* FirebaseInstallations */,
-				DA91079F2BD72EA400BA91DC /* FirebaseMLModelDownloader */,
-				DA9107A12BD72EA400BA91DC /* FirebaseMessaging */,
-				DA9107A32BD72EA400BA91DC /* FirebasePerformance */,
-				DA9107A52BD72EA400BA91DC /* FirebaseRemoteConfig */,
-				DA9107A72BD72EA400BA91DC /* FirebaseRemoteConfigSwift */,
-				DA9107A92BD72EA400BA91DC /* FirebaseStorage */,
-				DA9107AB2BD72EA400BA91DC /* FirebaseStorageCombine-Community */,
-			);
 			productName = "UniTe Watch App";
-			productReference = DA91075F2BD6157B00BA91DC /* UniTe Watch App.app */;
+			productReference = 21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA9107532BD6157900BA91DC /* Project object */ = {
+		21A34E212BD72F9A00907D74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					DA9107582BD6157A00BA91DC = {
-						CreatedOnToolsVersion = 15.2;
+					21A34E262BD72F9A00907D74 = {
+						CreatedOnToolsVersion = 15.3;
 					};
-					DA91075E2BD6157B00BA91DC = {
-						CreatedOnToolsVersion = 15.2;
+					21A34E2C2BD72F9A00907D74 = {
+						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = DA9107562BD6157900BA91DC /* Build configuration list for PBXProject "UniTe" */;
+			buildConfigurationList = 21A34E242BD72F9A00907D74 /* Build configuration list for PBXProject "UniTe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,61 +169,62 @@
 				en,
 				Base,
 			);
-			mainGroup = DA9107522BD6157900BA91DC;
-			packageReferences = (
-				DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = DA91075A2BD6157B00BA91DC /* Products */;
+			mainGroup = 21A34E202BD72F9A00907D74;
+			productRefGroup = 21A34E282BD72F9A00907D74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA9107582BD6157A00BA91DC /* UniTe */,
-				DA91075E2BD6157B00BA91DC /* UniTe Watch App */,
+				21A34E262BD72F9A00907D74 /* UniTe */,
+				21A34E2C2BD72F9A00907D74 /* UniTe Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA9107572BD6157A00BA91DC /* Resources */ = {
+		21A34E252BD72F9A00907D74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA91075D2BD6157B00BA91DC /* Resources */ = {
+		21A34E2B2BD72F9A00907D74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA91076C2BD6158000BA91DC /* Preview Assets.xcassets in Resources */,
-				DA9107692BD6158000BA91DC /* Assets.xcassets in Resources */,
+				21A34E3A2BD72FA000907D74 /* Preview Assets.xcassets in Resources */,
+				21A34E372BD72FA000907D74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA91075B2BD6157B00BA91DC /* Sources */ = {
+		21A34E292BD72F9A00907D74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9107672BD6157B00BA91DC /* ContentView.swift in Sources */,
-				DA9107652BD6157B00BA91DC /* UniTeApp.swift in Sources */,
+				212781802BD862C700A68BFA /* Utilities.swift in Sources */,
+				2127817E2BD862B200A68BFA /* EventDetailController.swift in Sources */,
+				21A34E352BD72F9A00907D74 /* ContentView.swift in Sources */,
+				2127817C2BD8629700A68BFA /* EventRowController.swift in Sources */,
+				2127817A2BD8627F00A68BFA /* Event.swift in Sources */,
+				21A34E332BD72F9A00907D74 /* UniTeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA9107622BD6157B00BA91DC /* PBXTargetDependency */ = {
+		21A34E302BD72F9A00907D74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA91075E2BD6157B00BA91DC /* UniTe Watch App */;
-			targetProxy = DA9107612BD6157B00BA91DC /* PBXContainerItemProxy */;
+			target = 21A34E2C2BD72F9A00907D74 /* UniTe Watch App */;
+			targetProxy = 21A34E2F2BD72F9A00907D74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DA91076D2BD6158000BA91DC /* Debug */ = {
+		21A34E3B2BD72FA000907D74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		DA91076E2BD6158000BA91DC /* Release */ = {
+		21A34E3C2BD72FA000907D74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,7 +338,7 @@
 			};
 			name = Release;
 		};
-		DA9107702BD6158000BA91DC /* Debug */ = {
+		21A34E3E2BD72FA000907D74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,18 +356,18 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Tieu.UniTe.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApp.UniTe.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
 			};
 			name = Debug;
 		};
-		DA9107712BD6158000BA91DC /* Release */ = {
+		21A34E3F2BD72FA000907D74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -455,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Tieu.UniTe.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApp.UniTe.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -463,11 +393,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
 			};
 			name = Release;
 		};
-		DA9107742BD6158000BA91DC /* Debug */ = {
+		21A34E422BD72FA000907D74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,14 +405,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_KEY_CFBundleDisplayName = UniTe;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Tieu.UniTe";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApp.UniTe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		DA9107752BD6158000BA91DC /* Release */ = {
+		21A34E432BD72FA000907D74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,7 +420,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_KEY_CFBundleDisplayName = UniTe;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nathan-Tieu.UniTe";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileApp.UniTe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -501,183 +431,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA9107562BD6157900BA91DC /* Build configuration list for PBXProject "UniTe" */ = {
+		21A34E242BD72F9A00907D74 /* Build configuration list for PBXProject "UniTe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA91076D2BD6158000BA91DC /* Debug */,
-				DA91076E2BD6158000BA91DC /* Release */,
+				21A34E3B2BD72FA000907D74 /* Debug */,
+				21A34E3C2BD72FA000907D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA91076F2BD6158000BA91DC /* Build configuration list for PBXNativeTarget "UniTe Watch App" */ = {
+		21A34E3D2BD72FA000907D74 /* Build configuration list for PBXNativeTarget "UniTe Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA9107702BD6158000BA91DC /* Debug */,
-				DA9107712BD6158000BA91DC /* Release */,
+				21A34E3E2BD72FA000907D74 /* Debug */,
+				21A34E3F2BD72FA000907D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA9107732BD6158000BA91DC /* Build configuration list for PBXNativeTarget "UniTe" */ = {
+		21A34E412BD72FA000907D74 /* Build configuration list for PBXNativeTarget "UniTe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA9107742BD6158000BA91DC /* Debug */,
-				DA9107752BD6158000BA91DC /* Release */,
+				21A34E422BD72FA000907D74 /* Debug */,
+				21A34E432BD72FA000907D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.24.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DA9107772BD72EA400BA91DC /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		DA9107792BD72EA400BA91DC /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		DA91077B2BD72EA400BA91DC /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		DA91077D2BD72EA400BA91DC /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
-		};
-		DA91077F2BD72EA400BA91DC /* FirebaseAppCheck */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAppCheck;
-		};
-		DA9107812BD72EA400BA91DC /* FirebaseAppDistribution-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAppDistribution-Beta";
-		};
-		DA9107832BD72EA400BA91DC /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		DA9107852BD72EA400BA91DC /* FirebaseAuthCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
-		};
-		DA9107872BD72EA400BA91DC /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		DA9107892BD72EA400BA91DC /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		DA91078B2BD72EA400BA91DC /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		DA91078D2BD72EA400BA91DC /* FirebaseDynamicLinks */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDynamicLinks;
-		};
-		DA91078F2BD72EA400BA91DC /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		DA9107912BD72EA400BA91DC /* FirebaseFirestoreCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreCombine-Community";
-		};
-		DA9107932BD72EA400BA91DC /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-		DA9107952BD72EA400BA91DC /* FirebaseFunctions */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFunctions;
-		};
-		DA9107972BD72EA400BA91DC /* FirebaseFunctionsCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFunctionsCombine-Community";
-		};
-		DA9107992BD72EA400BA91DC /* FirebaseInAppMessaging-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseInAppMessaging-Beta";
-		};
-		DA91079B2BD72EA400BA91DC /* FirebaseInAppMessagingSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseInAppMessagingSwift-Beta";
-		};
-		DA91079D2BD72EA400BA91DC /* FirebaseInstallations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseInstallations;
-		};
-		DA91079F2BD72EA400BA91DC /* FirebaseMLModelDownloader */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMLModelDownloader;
-		};
-		DA9107A12BD72EA400BA91DC /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
-		};
-		DA9107A32BD72EA400BA91DC /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-		DA9107A52BD72EA400BA91DC /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
-		};
-		DA9107A72BD72EA400BA91DC /* FirebaseRemoteConfigSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfigSwift;
-		};
-		DA9107A92BD72EA400BA91DC /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		DA9107AB2BD72EA400BA91DC /* FirebaseStorageCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107762BD72EA200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageCombine-Community";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = DA9107532BD6157900BA91DC /* Project object */;
+	rootObject = 21A34E212BD72F9A00907D74 /* Project object */;
 }

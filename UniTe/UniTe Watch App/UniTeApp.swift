@@ -2,7 +2,7 @@
 //  UniTeApp.swift
 //  UniTe Watch App
 //
-//  Created by nathan tieu on 4/21/24.
+//  Created by Eddy Wang on 4/22/24.
 //
 
 import SwiftUI
