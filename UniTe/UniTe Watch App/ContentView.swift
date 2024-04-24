@@ -1,13 +1,11 @@
 import SwiftUI
 
-import SwiftUI
-
 struct ContentView: View {
     @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
         NavigationView {
-            List(events) { event in
+            List(dataManager.eventList) { event in
                 NavigationLink(destination: EventDetailView(event: event)) {
                     EventRowView(event: event)
                 }

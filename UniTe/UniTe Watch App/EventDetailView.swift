@@ -13,7 +13,7 @@ struct EventDetailView: View {
     var body: some View {
         ScrollView{
             VStack {
-                Text(event.eventTitle)
+                Text(event.title)
                     .font(.headline)
                 Text(event.clubName)
                     .font(.subheadline)
@@ -47,6 +47,6 @@ struct EventDetailView: View {
 
 struct EventDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        EventDetailView(event: Event(clubName: "Chess Club", description: "Join us for an exciting round of chess.", location: "Skiles 254", time: "April 27 12:00 PM", eventTitle: "Chess Tournament"))
+        EventDetailView(event: Event(clubName: "Chess Club", description: "Join us for an exciting round of chess.", location: "Skiles 254", time: "April 27 12:00 PM", title: "Chess Tournament"))
     }
 }

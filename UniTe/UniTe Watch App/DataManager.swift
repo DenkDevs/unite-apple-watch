@@ -39,7 +39,7 @@ class DataManager: ObservableObject {
                        let eventTitle = event["title"],
                        let eventLocation = event["location"],
                        let eventTime = event["Time"] {
-                        let newEvent = Event(title: eventTitle as! String, clubName: eventClub as! String, location: eventLocation as! String, time: eventTime as! String, description: eventDescription as! String)
+                        let newEvent = Event(clubName: eventClub as! String, description: eventDescription as! String, location: eventLocation as! String, time: eventTime as! String, title: eventTitle as! String)
                         self.eventList.append(newEvent)
                     }
                 }

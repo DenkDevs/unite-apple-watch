@@ -12,7 +12,7 @@ struct EventRowView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
-            Text(event.eventTitle)
+            Text(event.title)
                 .font(.headline)
                 .padding(.bottom, 2)
             Text(event.clubName)
