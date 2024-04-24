@@ -21,31 +21,25 @@ class DataManager: ObservableObject {
             return
         }
 
-//        if let rawDataString = String(data: data!, encoding: .utf8) {
-//                print("Raw data: \(rawDataString)")
-//            } else {
-//                print("Error converting data to string")
-//            }
         
         do {
             if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: [String: Any]] {
                 print("Success")
-//                print("JSON Response: \(json)")
                 
                 for (_, event) in json {
-                    print("event: \(event)")
-                    if let eventClub = event["clubName"],
-                       let eventDescription = event["description"],
-                       let eventTitle = event["title"],
-                       let eventLocation = event["location"],
-                       let eventTime = event["Time"] {
-                        let newEvent = Event(clubName: eventClub as! String, description: eventDescription as! String, location: eventLocation as! String, time: eventTime as! String, title: eventTitle as! String)
-                        self.eventList.append(newEvent)
+                    DispatchQueue.main.async {
+                        if let eventClub = event["clubName"],
+                           let eventDescription = event["description"],
+                           let eventTitle = event["title"],
+                           let eventLocation = event["location"],
+                           let eventTime = event["time"] {
+                            let newEvent = Event(clubName: eventClub as! String, description: eventDescription as! String, location: eventLocation as! String, time: eventTime as! String, title: eventTitle as! String)
+                            self.eventList.append(newEvent)
+                        }
                     }
                 }
             }
             
-//            print(self.eventList)
         } catch {
             print("Error parsing JSON: \(error)")
         }
