@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2127817A2BD8627F00A68BFA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212781792BD8627F00A68BFA /* Event.swift */; };
-		2127817C2BD8629700A68BFA /* EventRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127817B2BD8629700A68BFA /* EventRowController.swift */; };
-		2127817E2BD862B200A68BFA /* EventDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127817D2BD862B200A68BFA /* EventDetailController.swift */; };
-		212781802BD862C700A68BFA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2127817F2BD862C700A68BFA /* Utilities.swift */; };
+		212781822BD8B02200A68BFA /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212781812BD8B02200A68BFA /* Events.swift */; };
+		212781842BD8B04800A68BFA /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212781832BD8B04800A68BFA /* EventDetailView.swift */; };
+		212781862BD8B05600A68BFA /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212781852BD8B05600A68BFA /* EventRowView.swift */; };
 		21A34E2E2BD72F9A00907D74 /* UniTe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		21A34E332BD72F9A00907D74 /* UniTeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A34E322BD72F9A00907D74 /* UniTeApp.swift */; };
 		21A34E352BD72F9A00907D74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A34E342BD72F9A00907D74 /* ContentView.swift */; };
@@ -49,10 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		212781792BD8627F00A68BFA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		2127817B2BD8629700A68BFA /* EventRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowController.swift; sourceTree = "<group>"; };
-		2127817D2BD862B200A68BFA /* EventDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailController.swift; sourceTree = "<group>"; };
-		2127817F2BD862C700A68BFA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		212781812BD8B02200A68BFA /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		212781832BD8B04800A68BFA /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		212781852BD8B05600A68BFA /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
 		21A34E272BD72F9A00907D74 /* UniTe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniTe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A34E322BD72F9A00907D74 /* UniTeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniTeApp.swift; sourceTree = "<group>"; };
@@ -100,13 +98,12 @@
 				21A34E322BD72F9A00907D74 /* UniTeApp.swift */,
 				21A34E342BD72F9A00907D74 /* ContentView.swift */,
 				DA3BAF0A2BD8735200C1EBF4 /* DataManager.swift */,
+				212781812BD8B02200A68BFA /* Events.swift */,
+				212781832BD8B04800A68BFA /* EventDetailView.swift */,
+				212781852BD8B05600A68BFA /* EventRowView.swift */,
 				21A34E362BD72FA000907D74 /* Assets.xcassets */,
 				DA3BAF0C2BD8A50400C1EBF4 /* GoogleService-Info.plist */,
 				21A34E382BD72FA000907D74 /* Preview Content */,
-				212781792BD8627F00A68BFA /* Event.swift */,
-				2127817B2BD8629700A68BFA /* EventRowController.swift */,
-				2127817D2BD862B200A68BFA /* EventDetailController.swift */,
-				2127817F2BD862C700A68BFA /* Utilities.swift */,
 			);
 			path = "UniTe Watch App";
 			sourceTree = "<group>";
@@ -227,13 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212781802BD862C700A68BFA /* Utilities.swift in Sources */,
-				2127817E2BD862B200A68BFA /* EventDetailController.swift in Sources */,
+				212781842BD8B04800A68BFA /* EventDetailView.swift in Sources */,
+				212781822BD8B02200A68BFA /* Events.swift in Sources */,
 				21A34E352BD72F9A00907D74 /* ContentView.swift in Sources */,
 				DA3BAF0B2BD8735200C1EBF4 /* DataManager.swift in Sources */,
 				2127817C2BD8629700A68BFA /* EventRowController.swift in Sources */,
 				2127817A2BD8627F00A68BFA /* Event.swift in Sources */,
 				21A34E332BD72F9A00907D74 /* UniTeApp.swift in Sources */,
+				212781862BD8B05600A68BFA /* EventRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
