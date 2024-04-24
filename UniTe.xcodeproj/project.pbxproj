@@ -18,9 +18,6 @@
 		DA3BAF0B2BD8735200C1EBF4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BAF0A2BD8735200C1EBF4 /* DataManager.swift */; };
 		DA3BAF0D2BD8A50400C1EBF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3BAF0C2BD8A50400C1EBF4 /* GoogleService-Info.plist */; };
 		DA3BAF0E2BD8A50400C1EBF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3BAF0C2BD8A50400C1EBF4 /* GoogleService-Info.plist */; };
-		DA9107CC2BD86A1200BA91DC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107CB2BD86A1200BA91DC /* FirebaseAnalytics */; };
-		DA9107D82BD86A1200BA91DC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107D72BD86A1200BA91DC /* FirebaseAuth */; };
-		DA9107DE2BD86A1200BA91DC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = DA9107DD2BD86A1200BA91DC /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,9 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA9107DE2BD86A1200BA91DC /* FirebaseDatabase in Frameworks */,
-				DA9107CC2BD86A1200BA91DC /* FirebaseAnalytics in Frameworks */,
-				DA9107D82BD86A1200BA91DC /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +144,6 @@
 			);
 			name = "UniTe Watch App";
 			packageProductDependencies = (
-				DA9107CB2BD86A1200BA91DC /* FirebaseAnalytics */,
-				DA9107D72BD86A1200BA91DC /* FirebaseAuth */,
-				DA9107DD2BD86A1200BA91DC /* FirebaseDatabase */,
 			);
 			productName = "UniTe Watch App";
 			productReference = 21A34E2D2BD72F9A00907D74 /* UniTe Watch App.app */;
@@ -490,24 +481,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DA9107CB2BD86A1200BA91DC /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107CA2BD86A1200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		DA9107D72BD86A1200BA91DC /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107CA2BD86A1200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		DA9107DD2BD86A1200BA91DC /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DA9107CA2BD86A1200BA91DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21A34E212BD72F9A00907D74 /* Project object */;
 }

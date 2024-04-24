@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftUI
-import FirebaseDatabase
 
 class DataManager: ObservableObject {
     @Published var eventList: [Event] = []
@@ -20,7 +19,6 @@ class DataManager: ObservableObject {
             print(error)
             return
         }
-
         
         do {
             if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: [String: Any]] {

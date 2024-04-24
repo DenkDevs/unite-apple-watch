@@ -6,16 +6,10 @@
 //
 
 import SwiftUI
-import Firebase
 
 @main
 struct UniTe_Watch_AppApp: App {
     @StateObject var dataManager = DataManager()
-    
-    init() {
-            FirebaseApp.configure()
-            print("Configured Firebase")
-        }
     
     var body: some Scene {
         WindowGroup {
