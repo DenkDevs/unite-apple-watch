@@ -1,13 +1,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var dataManager: DataManager
+    
     var body: some View {
         NavigationView {
             List {
-                ForEach(events) { event in
+                ForEach(dataManager.eventList) { event in
                     NavigationLink(destination: EventDetailView(event: event)) {
                         VStack(alignment: .leading, spacing: 5) {
-                            Text(event.eventTitle)
+                            Text(event.title)
                                 .font(.headline)
                                 .padding(.bottom, 2)
                             Text(event.clubName)
@@ -27,11 +29,11 @@ struct ContentView: View {
 }
 
 struct EventDetailView: View {
-    var event: Events
+    var event: Event
     
     var body: some View {
         VStack {
-            Text(event.eventTitle)
+            Text(event.title)
                 .font(.title)
                 .padding()
             Text("Hosted by \(event.clubName)")
@@ -69,16 +71,16 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Events: Identifiable {
-    var id = UUID()
-    var clubName: String
-    var description: String
-    var location: String
-    var time: String
-    var eventTitle: String
-}
-
-var events = [
-    Events(clubName: "Chess Club", description: "Join us for an exciting round of chess.", location: "Skiles 254", time: "April 27 12:00 PM", eventTitle: "Chess Tournament"),
-    Events(clubName: "Robotics Club", description: "Workshop on building your first robot.", location: "Klaus Atrium", time: "April 28 3:00 PM", eventTitle: "Robotics Workshop")
-]
+//struct Events: Identifiable {
+//    var id = UUID()
+//    var clubName: String
+//    var description: String
+//    var location: String
+//    var time: String
+//    var eventTitle: String
+//}
+//
+//var events = [
+//    Event(clubName: "Chess Club", description: "Join us for an exciting round of chess.", location: "Skiles 254", time: "April 27 12:00 PM", eventTitle: "Chess Tournament"),
+//    Event(clubName: "Robotics Club", description: "Workshop on building your first robot.", location: "Klaus Atrium", time: "April 28 3:00 PM", eventTitle: "Robotics Workshop")
+//]

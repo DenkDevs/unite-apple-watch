@@ -21,7 +21,8 @@ class EventDetailController: WKInterfaceController {
             titleLabel.setText(event.title)
             clubLabel.setText(event.clubName)
             locationLabel.setText(event.location)
-            timeLabel.setText(Formatter.time.string(from: event.time))
+//            timeLabel.setText(Formatter.time.string(from: event.time))
+            timeLabel.setText(event.time)
             descriptionLabel.setText(event.description)
         }
     }

@@ -12,6 +12,6 @@ struct Event: Identifiable {
     var title: String
     var clubName: String
     var location: String
-    var time: Date
+    var time: String
     var description: String
 }

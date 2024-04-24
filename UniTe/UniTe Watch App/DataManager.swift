@@ -10,9 +10,9 @@ import SwiftUI
 import FirebaseDatabase
 
 class DataManager: ObservableObject {
-    @Published var events: [Event] = []
+    @Published var eventList: [Event] = []
 
-    let url = URL(string: "https://unite-fdcb6-default-rtdb.firebaseio.com/")!
+    let url = URL(string: "https://unite-fdcb6-default-rtdb.firebaseio.com/events.json")!
 
     lazy var request = URLRequest(url: url)
     
@@ -25,8 +25,26 @@ class DataManager: ObservableObject {
                     print(error)
                     return
                 }
-                print("Success")
-                print(response as Any)
+                
+                do {
+                    if let json = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: [String: String]] {
+                            print("Success")
+                            print("JSON Response: \(json)")
+                        
+                            for (_, event) in json {
+                                if let eventClub = event["clubName"],
+                                   let eventDescription = event["description"],
+                                   let eventTitle = event["title"],
+                                   let eventLocation = event["location"],
+                                   let eventTime = event["time"] {
+                                    let newEvent = Event(title: eventTitle, clubName: eventClub, location: eventLocation, time: eventTime, description: eventDescription)
+                                    self.eventList.append(newEvent)
+                                }
+                            }
+                        }
+                    } catch {
+                        print("Error parsing JSON: \(error)")
+                    }
             }
         }()
     
